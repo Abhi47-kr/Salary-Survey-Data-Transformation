@@ -13,9 +13,9 @@ This project aims to transform a disorderly Salary Survey dataset to a clean org
 
 ## Data Sources
 
-The primary dataset used for cleaning is a US-centric-ish dataset sourced from AskAManager.org's Salary Survey,  encompassing respondents' demographic and professional information, comprising 19,932 entries across 17 columns.
+The primary dataset used for cleaning is a US-centric-ish dataset sourced from AskAManager.org's Salary Survey,  encompassing respondents' demographic and professional information, comprising 19,932 entries across 14 columns.
 
-
+![Sample](https://github.com/Abhi47-kr/Data-Cleaning-in-MS-Excel/assets/168676103/f864341a-bb5b-4698-a833-587eb20b7434)
 
 ## Tool
 
@@ -32,6 +32,15 @@ The primary dataset used for cleaning is a US-centric-ish dataset sourced from A
  
 - Renaming Column Headers
   - Performed renaming of column headers to enhance clarity and usability, ensuring that headers are concise, descriptive, and intuitive for improved data interpretation and analysis.
+  - Before
+    
+     ![Screenshot (14)](https://github.com/Abhi47-kr/Data-Cleaning-in-MS-Excel/assets/168676103/13c837d3-a2e6-4d4a-9c48-2aed9b4fbd68)
+
+  - After
+    
+     ![Screenshot (16)](https://github.com/Abhi47-kr/Data-Cleaning-in-MS-Excel/assets/168676103/5b732eba-632a-4937-9536-bae8af8a9913)
+
+
 
 
 
