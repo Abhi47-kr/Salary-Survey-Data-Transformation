@@ -15,11 +15,23 @@ This project aims to transform a disorderly Salary Survey dataset to a clean org
 
 The primary dataset used for cleaning is a US-centric-ish dataset sourced from AskAManager.org's Salary Survey,  encompassing respondents' demographic and professional information, comprising 19,932 entries across 17 columns.
 
+
+
 ## Tool
 
 - Excel
 
 ## The Cleaning Process
+
+- Data Backup
+  - After assessing the data in order to understand what needed to be done to take it from messy to clean, a copy of the dataset was made in order to have the original dataset in the 
+    event of data loss during cleaning.
+
+- Autofit Row Height and Autofit Column Width
+  - Implemented autofitting of row height and column width to ensure optimal visibility and readability of data, enhancing user experience and facilitating efficient navigation within the dataset.
+ 
+- Renaming Column Headers
+  - Performed renaming of column headers to enhance clarity and usability, ensuring that headers are concise, descriptive, and intuitive for improved data interpretation and analysis.
 
 
 
