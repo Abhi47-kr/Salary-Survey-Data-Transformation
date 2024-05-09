@@ -49,6 +49,7 @@ The primary dataset used for cleaning is a US-centric-ish dataset sourced from A
 
 1. **Updating Data Types**
   - Adjusted the data types for all 14 columns: Converted "Salary" and "Additional Salary Compensation" columns from general to numeric data type, ensuring accurate numerical calculations, while switching the remaining columns from general to text data type, facilitating proper handling of textual information and preventing unintended formatting issues.
+    
 
 2. **Standardizing Data Formats**
   - In columns "Overall years of Professional experience" and "Years of experience in field" :
@@ -56,6 +57,42 @@ The primary dataset used for cleaning is a US-centric-ish dataset sourced from A
     - Removed spaces around the hyphen and "years" to standardize the format, e.g., "21-30" instead of "21 - 30 years" using *Find & Replace*
       
      Before   ![Screenshot (20)](https://github.com/Abhi47-kr/Data-Cleaning-in-MS-Excel/assets/168676103/0c72db82-ce50-48cf-b72e-0c7b1b49bfea)     After   ![Screenshot (22)](https://github.com/Abhi47-kr/Data-Cleaning-in-MS-Excel/assets/168676103/7128703d-3c1f-4b83-af21-518adcbf8b3d)
+    
+
+3. Formatting "Industry" & "Job Title" columns
+  - Standardized Capitalization
+    - ensuring all job titles are in a consistent format in title case using *PROPER* function.
+  - Removed Leading and Trailing Spaces
+    - using *TRIM* function.
+      
+ - Before ![Screenshot (25)](https://github.com/Abhi47-kr/Data-Cleaning-in-MS-Excel/assets/168676103/136f010c-9276-4e5b-9cd6-bd450330d1b3)
+ - After ![Screenshot (24)](https://github.com/Abhi47-kr/Data-Cleaning-in-MS-Excel/assets/168676103/93840ca8-3d10-4a1e-a070-e79184b6c271)
+
+
+4. **Standardizing "Job Title", "Country", "Currency", "City" & "Race" columns**
+  - Grouped similar data points using *FILTER, FIND & REPLACE, IF function, Split Text to Columns* to reduce redundancy.
+    - for example "Senior Software Engg", "Sr Software Engineer", and "Sr. Software Engineer" etc under a single category "Senior Software Engineer".
+    - also in "Races" Column, for example grouping "Asian or Asian American, Black or African American, Hispanic, Latino, or Spanish origin" to "Asia or Asian American" using first preference priority. And like "Another option not listed here or prefer not to answer" to "Others".
+    - grouped same countries with different abbrevations like "U.S", "US.", "U.S.", "U.S.A", to "US"
+
+  - Rectified and deleted inconsistencies among data points in respective columns ensuring uniformity and clarity for streamlined analysis.
+
+    
+5. **Filling Empty Cells**
+  - Empty cells in columns "Additional Monetary Compensation", "State", "Highest level of Education", "Gender", "Race", were identified using *FILTER*
+  - The empty cells was then filled with "NA" using *IF* and *ISBLANK* function.
+
+
+6.     
+
+
+
+
+
+
+
+    
+    
 
 
 
