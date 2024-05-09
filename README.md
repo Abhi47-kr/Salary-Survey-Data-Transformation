@@ -83,7 +83,27 @@ The primary dataset used for cleaning is a US-centric-ish dataset sourced from A
   - The empty cells was then filled with "NA" using *IF* and *ISBLANK* function.
 
 
-6.     
+6. **Removing Inconsistent Data Column**
+
+   ![Screenshot (29)](https://github.com/Abhi47-kr/Data-Cleaning-in-MS-Excel/assets/168676103/715455d6-6fc3-4925-a47f-52cfb44fe0f9)
+   
+  - Recognizing wide-ranging inconsistencies in the "Additional monetary compensation" column, deemed its contribution to analysis as limited, and proceeded with its deletion to streamline the dataset and focus on relevant variables for meaningful analysis.
+
+
+7. **Detecting,Removing and Highlighting Outliers**
+  - Manually inspected the data to identify potential outliers in the form of anomalies using *SORTING* and was than removed accordingly to avoid skewness in the dataset.
+  - Used Automated approach with segment level *Z-scores* method to detect outliers that could not be achieved manually
+    (Note : Segment level Z-scores are calculated rather than the Z-scores of all data points inorder to identify the correct outliers for the dataset)
+    - Calculated Average of Salary using *AVERAGEIFS* and Standard Deviation using *STDEV.P* at "Job Title" level
+    - Calculated Z-scores of each data points at "Job Title" level using formula *=(Annual Salary - Average of Annual Salary)/Standard Deviation*
+    - Once all the Z-scores are calculated, any data point with Z-score higher than 5 and lesser than -1 is considered as an outlier (Note : The normal convention of +3/-3 thresholds could not be included because of highly skewed dataset)
+
+      
+     ![Screenshot (30)](https://github.com/Abhi47-kr/Data-Cleaning-in-MS-Excel/assets/168676103/8c8a9578-6ef7-4f0d-92fb-fe8ceb000e4d)
+
+    
+
+      
 
 
 
