@@ -1,27 +1,28 @@
-# Data-Cleaning-in-MS-Excel
+# DATA-CLEANING-IN-MS-EXCEL
 
-## Table of Contents
+## TABLE OF CONTENTS
 
-- [Project Overview](#project-overview)
-- [Data Sources](#data-sources)
-- [Tool](#tool)
-- [The Cleaning Process](#the-cleaning-process)
+- [PROJECT OVERVIEW](#project-overview)
+- [DATA SOURCES](#data-sources)
+- [TOOL](#tool)
+- [THE CLEANING PROCESS](#the-cleaning-process)
+- [CONCLUSION](#conclusion)
 
-## Project Overview
+## PROJECT OVERVIEW
 
 This project aims to transform a disorderly Salary Survey dataset to a clean organised dataset thereby prioritizing data consistency and integrity for seamless analysis and future utilization.
 
-## Data Sources
+## DATA SOURCES
 
 The primary dataset used for cleaning is a US-centric-ish dataset sourced from AskAManager.org's Salary Survey,  encompassing respondents' demographic and professional information, comprising 19,932 entries across 14 columns.
 
 ![Sample](https://github.com/Abhi47-kr/Data-Cleaning-in-MS-Excel/assets/168676103/f864341a-bb5b-4698-a833-587eb20b7434)
 
-## Tool
+## TOOL
 
 - Excel
 
-## The Cleaning Process
+## THE CLEANING PROCESS
 
 - Data Backup
   - A copy of the dataset was made in order to have the original dataset in the event of data loss during cleaning.
@@ -90,17 +91,20 @@ The primary dataset used for cleaning is a US-centric-ish dataset sourced from A
   - Recognizing wide-ranging inconsistencies in the "Additional monetary compensation" column, deemed its contribution to analysis as limited, and proceeded with its deletion to streamline the dataset and focus on relevant variables for meaningful analysis.
 
 
-7. **Detecting,Removing and Highlighting Outliers**
-  - Manually inspected the data to identify potential outliers in the form of anomalies using *SORTING* and was than removed accordingly to avoid skewness in the dataset.
-  - Used Automated approach with segment level *Z-scores* method to detect outliers that could not be achieved manually
-    (Note : Segment level Z-scores are calculated rather than the Z-scores of all data points inorder to identify the correct outliers for the dataset)
-    - Calculated Average of Salary using *AVERAGEIFS* and Standard Deviation using *STDEV.P* at "Job Title" level
-    - Calculated Z-scores of each data points at "Job Title" level using formula *=(Annual Salary - Average of Annual Salary)/Standard Deviation*
-    - Once all the Z-scores are calculated, any data point with Z-score higher than 5 and lesser than -1 is considered as an outlier (Note : The normal convention of +3/-3 thresholds could not be included because of highly skewed dataset)
+7. **Detecting and Removing Outliers**
+  - Manually inspected the data to identify potential outliers using *SORTING* and than removed it accordingly from the dataset.
+   - Outliers were identified based on extreme values and anomalies, considering the dataset's diverse currency denominations from various countries.
+   - Employed a manual approach instead of automated methods like Z-scores or standard deviation due to the currency variations.
 
-      
-     ![Screenshot (30)](https://github.com/Abhi47-kr/Data-Cleaning-in-MS-Excel/assets/168676103/8c8a9578-6ef7-4f0d-92fb-fe8ceb000e4d)
 
+## CONCLUSION
+
+Through a systematic data cleaning process and taking all the necessary steps for cleaning, the data is now ensured for reliable analysis. In addition to this, the feeling of fulfillment is also achieved that comes with transforming a messy dataset to a clean one :relieved:
+
+     
+  ![Screenshot (31)](https://github.com/Abhi47-kr/Data-Cleaning-in-MS-Excel/assets/168676103/c263d8d5-7344-4363-91ca-632d5ec4b899)
+
+    
     
 
       
