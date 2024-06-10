@@ -5,11 +5,11 @@
 
 ## TABLE OF CONTENTS
 
-- [PROJECT OVERVIEW](#project-overview)
-- [DATA SOURCES](#data-sources)
-- [TOOL](#tool)
-- [THE CLEANING PROCESS](#the-cleaning-process)
-- [CONCLUSION](#conclusion)
+- [Project Overview](#project-overview)
+- [Data Sources](#data-sources)
+- [Tool Used](#tool-used)
+- [The Cleaning Process](#the-cleaning-process)
+- [Conclusion](#conclusion)
 
 ## PROJECT OVERVIEW
 
@@ -17,7 +17,7 @@ This project aims to transform a disorderly Salary Survey dataset to a clean org
 
 ## DATA SOURCES
 
-The primary dataset used for cleaning is a US-centric-ish dataset sourced from AskAManager.org's Salary Survey,  encompassing respondents' demographic and professional information, comprising 19,932 entries across 14 columns.
+The primary dataset used for cleaning is a US-centric-ish dataset sourced from AskAManager.org's Salary Survey,  encompassing respondents' demographic and professional information, comprising 19,932 entries across 14 columns. The raw uncleaned data can be viewed [here](https://github.com/Abhi47-kr/Salary-Survey-Data-Transformation/blob/b73c972a1d5055b6be15b527165b76ea9545092a/Dataset.xlsx).
 
 ![Sample](https://github.com/Abhi47-kr/Data-Cleaning-in-MS-Excel/assets/168676103/f864341a-bb5b-4698-a833-587eb20b7434)
 
@@ -99,6 +99,7 @@ The primary dataset used for cleaning is a US-centric-ish dataset sourced from A
    - Outliers were identified based on extreme values and anomalies, considering the dataset's diverse currency denominations from various countries.
    - Employed a manual approach instead of automated methods like Z-scores or standard deviation due to the currency variations.
 
+The complete cleaned transformed data can be viewed [here](https://github.com/Abhi47-kr/Salary-Survey-Data-Transformation/blob/b73c972a1d5055b6be15b527165b76ea9545092a/Dataset_cleaned.xlsx)
 
 ## CONCLUSION
 
