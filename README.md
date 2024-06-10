@@ -99,7 +99,7 @@ The primary dataset used for cleaning is a US-centric-ish dataset sourced from A
    - Outliers were identified based on extreme values and anomalies, considering the dataset's diverse currency denominations from various countries.
    - Employed a manual approach instead of automated methods like Z-scores or standard deviation due to the currency variations.
 
-The complete cleaned transformed data can be viewed [here](https://github.com/Abhi47-kr/Salary-Survey-Data-Transformation/blob/b73c972a1d5055b6be15b527165b76ea9545092a/Dataset_cleaned.xlsx)
+### The complete transformed data can be viewed [here](https://github.com/Abhi47-kr/Salary-Survey-Data-Transformation/blob/b73c972a1d5055b6be15b527165b76ea9545092a/Dataset_cleaned.xlsx)
 
 ## CONCLUSION
 
