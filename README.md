@@ -1,5 +1,8 @@
 # SALARY SURVEY DATA TRANSFORMATION
 
+![alexander-mils-lCPhGxs7pww-unsplash](https://github.com/Abhi47-kr/Salary-Survey-Data-Transformation/assets/168676103/306fa38c-82a2-4848-a56e-49b609eb5f28)
+
+
 ## TABLE OF CONTENTS
 
 - [PROJECT OVERVIEW](#project-overview)
