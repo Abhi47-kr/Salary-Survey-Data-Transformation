@@ -1,4 +1,4 @@
-# DATA-CLEANING-IN-MS-EXCEL
+# SALARY SURVEY DATA TRANSFORMATION
 
 ## TABLE OF CONTENTS
 
@@ -20,7 +20,7 @@ The primary dataset used for cleaning is a US-centric-ish dataset sourced from A
 
 ## TOOL
 
-- Excel
+- Excel (free web version)
 
 ## THE CLEANING PROCESS
 
