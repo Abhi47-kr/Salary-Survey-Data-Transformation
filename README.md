@@ -9,6 +9,7 @@
 - [Data Sources](#data-sources)
 - [Tool Used](#tool-used)
 - [The Cleaning Process](#the-cleaning-process)
+- [PROJECT IMPACT](#project-impact)
 - [Conclusion](#conclusion)
 
 ## PROJECT OVERVIEW
@@ -100,6 +101,12 @@ The primary dataset used for cleaning is a US-centric-ish dataset sourced from A
    - Employed a manual approach instead of automated methods like Z-scores or standard deviation due to the currency variations.
 
 ### The complete transformed data can be viewed [here](https://github.com/Abhi47-kr/Salary-Survey-Data-Transformation/blob/b73c972a1d5055b6be15b527165b76ea9545092a/Dataset_cleaned.xlsx)
+
+## PROJECT IMPACT
+- *Processed 19,932 survey entries* across *14 columns* to ensure data consistency and accuracy.
+- *Removed* duplicates to maintain data accuracy, eliminating over *500 redundant entries*.
+- *Rectified* and *grouped* over *1,000 similar data points* to reduce redundancy and improve data clarity.
+- Detected and manually *removed outliers* based on extreme values and anomalies, ensuring a clean dataset suitable for reliable analysis.
 
 ## CONCLUSION
 
