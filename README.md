@@ -9,7 +9,7 @@
 - [Data Sources](#data-sources)
 - [Tool Used](#tool-used)
 - [The Cleaning Process](#the-cleaning-process)
-- [PROJECT IMPACT](#project-impact)
+- [Project Impact](#project-impact)
 - [Conclusion](#conclusion)
 
 ## PROJECT OVERVIEW
